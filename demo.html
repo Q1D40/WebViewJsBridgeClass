@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+ </head>
+<body>
+
+<script src="wb.js"></script>
+<script>
+wb.nativeFunction({
+    param:"abcd",
+    suc:function(res){
+        alert(res.code);
+        alert(res.info);
+    },
+    err:function(res){
+        alert(res.code);
+        alert(res.info);
+    }
+});
+</script>
+</body>
+</html>
+
